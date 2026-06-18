@@ -106,7 +106,7 @@ const GAME_DATA = {
           ],
         },
         {
-          name: "da boys 🍻",
+          name: "Combo 👦👧",
           clues: [
             { value: 200,  clue: "Clue goes here", answer: "Answer goes here" },
             { value: 400,  clue: "Clue goes here", answer: "Answer goes here" },
@@ -116,7 +116,7 @@ const GAME_DATA = {
           ],
         },
         {
-          name: "the Ladies 💃",
+          name: "Category 3",
           clues: [
             { value: 200,  clue: "Clue goes here", answer: "Answer goes here" },
             { value: 400,  clue: "Clue goes here", answer: "Answer goes here" },
