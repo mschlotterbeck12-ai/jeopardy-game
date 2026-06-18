@@ -98,11 +98,11 @@ const GAME_DATA = {
         {
           name: "the host 🎤",
           clues: [
-            { value: 200,  clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 400,  clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 600,  clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 800,  clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 1000, clue: "Clue goes here", answer: "Answer goes here" },
+            { value: 200,  clue: "What is the name of the school I attended for 15 years of my life?", answer: "" },
+            { value: 400,  clue: "What is my favorite color? Hint: I wear a lot of it because, as a kid, my Mom thought it looked good on me since it matched something.", answer: "" },
+            { value: 600,  clue: "What is my middle name?", answer: "" },
+            { value: 800,  clue: "What is my biggest fear?", answer: "" },
+            { value: 1000, clue: "Can you name all 4 countries that my family lineage is from?", answer: "" },
           ],
         },
         {
