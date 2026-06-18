@@ -27,10 +27,10 @@ const GAME_DATA = {
       name: "Jeopardy",
       categories: [
         {
-          name: "Category 1",
+          name: "for da boys 🍻",
           clues: [
             { value: 100, clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 200, clue: "Clue goes here", answer: "Answer goes here" },
+            { value: 200, clue: "Which guy played the saxphone growing up", answer: "Answer goes here" },
             { value: 300, clue: "Clue goes here", answer: "Answer goes here" },
             { value: 400, clue: "Clue goes here", answer: "Answer goes here" },
             { value: 500, clue: "Clue goes here", answer: "Answer goes here" },
