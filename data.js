@@ -61,9 +61,9 @@ const GAME_DATA = {
           clues: [
             { value: 100, clue: "Which country won the 2022 FIFA World Cup?", answer: "Argentina" },
             { value: 200, clue: "Which club has won the most UEFA Champions League titles?", answer: "Real Madrid" },
-            { value: 300, clue: "Which player has won the most Ballon d'Or awards?", answer: "Lionel Messi" },
-            { value: 400, clue: "Which two clubs share the San Siro stadium in Milan?", answer: "Inter Milan and AC Milan" },
-            { value: 500, clue: "Who is the all-time top scorer in FIFA World Cup history?", answer: "Miroslav Klose" },
+            { value: 300, clue: "Which two clubs share the San Siro stadium in Milan?", answer: "Inter Milan and AC Milan" },
+            { value: 400, clue: "Which country has won the most FIFA World Cup titles?", answer: "Brazil (5)" },
+            { value: 500, clue: "Which player holds the record for most goals in a single UEFA Champions League season?", answer: "Cristiano Ronaldo" },
           ],
         },
         {
