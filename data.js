@@ -81,9 +81,9 @@ const GAME_DATA = {
           clues: [
             { value: 100, clue: "What is the only metal that is liquid at room temperature?", answer: "Mercury" },
             { value: 200, clue: "How many bones are in the adult human body?", answer: "206" },
-            { value: 300, clue: "In what year was the Magna Carta signed?", answer: "1215" },
-            { value: 400, clue: "Which planet rotates on its side, with an axial tilt of about 98 degrees?", answer: "Uranus" },
-            { value: 500, clue: "What is the rarest naturally occurring element on Earth?", answer: "Astatine" },
+            { value: 300, clue: "Who wrote the dystopian novel '1984'?", answer: "George Orwell" },
+            { value: 400, clue: "What is the SI unit of electrical resistance?", answer: "The ohm" },
+            { value: 500, clue: "What is the rarest of the eight major human blood types?", answer: "AB negative" },
           ],
         },
       ],
