@@ -57,7 +57,7 @@ const GAME_DATA = {
           ],
         },
         {
-          name: "Category 4",
+          name: "futty ⚽",
           clues: [
             { value: 100, clue: "Clue goes here", answer: "Answer goes here" },
             { value: 200, clue: "Clue goes here", answer: "Answer goes here" },
@@ -96,7 +96,7 @@ const GAME_DATA = {
       name: "Double Jeopardy",
       categories: [
         {
-          name: "Category 1",
+          name: "the host 🎤",
           clues: [
             { value: 200,  clue: "Clue goes here", answer: "Answer goes here" },
             { value: 400,  clue: "Clue goes here", answer: "Answer goes here" },
