@@ -51,8 +51,8 @@ const GAME_DATA = {
           clues: [
             { value: 100, clue: "Clue goes here", answer: "Answer goes here" },
             { value: 200, clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 300, clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 400, clue: "Clue goes here", answer: "Answer goes here" },
+            { value: 300, clue: "What RPI alumnus commanded the Artemis II mission to the moon?", answer: "Reid Wiseman" },
+            { value: 400, clue: "In what year was RPI founded, making it the oldest technological university in the English-speaking world?", answer: "1824" },
             { value: 500, clue: "Clue goes here", answer: "Answer goes here" },
           ],
         },
