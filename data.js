@@ -136,13 +136,13 @@ const GAME_DATA = {
           ],
         },
         {
-          name: "Category 5",
+          name: "Sports 🏆",
           clues: [
-            { value: 200,  clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 400,  clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 600,  clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 800,  clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 1000, clue: "Clue goes here", answer: "Answer goes here" },
+            { value: 200,  clue: "In golf, what is the term for three strokes under par on a single hole?", answer: "An albatross (double eagle)" },
+            { value: 400,  clue: "What is the most-watched sporting event in the world every year?", answer: "The UEFA Champions League final" },
+            { value: 600,  clue: "Which tennis tournament is played on grass courts?", answer: "Wimbledon" },
+            { value: 800,  clue: "Which boxer was known as \"The Greatest\" and lit the Olympic torch in 1996?", answer: "Muhammad Ali" },
+            { value: 1000, clue: "In soccer, which goalkeeper is the only one to win the Ballon d'Or?", answer: "Lev Yashin" },
           ],
         },
         {
