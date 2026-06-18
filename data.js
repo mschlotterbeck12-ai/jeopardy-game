@@ -59,11 +59,11 @@ const GAME_DATA = {
         {
           name: "futty ⚽",
           clues: [
-            { value: 100, clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 200, clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 300, clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 400, clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 500, clue: "Clue goes here", answer: "Answer goes here" },
+            { value: 100, clue: "Which country won the 2022 FIFA World Cup?", answer: "Argentina" },
+            { value: 200, clue: "Which club has won the most UEFA Champions League titles?", answer: "Real Madrid" },
+            { value: 300, clue: "Which player has won the most Ballon d'Or awards?", answer: "Lionel Messi" },
+            { value: 400, clue: "Which two clubs share the San Siro stadium in Milan?", answer: "Inter Milan and AC Milan" },
+            { value: 500, clue: "Who is the all-time top scorer in FIFA World Cup history?", answer: "Miroslav Klose" },
           ],
         },
         {
