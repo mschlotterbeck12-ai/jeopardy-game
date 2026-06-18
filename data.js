@@ -49,11 +49,11 @@ const GAME_DATA = {
         {
           name: "RPI History 🎓",
           clues: [
-            { value: 100, clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 200, clue: "Clue goes here", answer: "Answer goes here" },
+            { value: 100, clue: "In what New York city is RPI located?", answer: "Troy" },
+            { value: 200, clue: "What is the nickname of RPI's athletic teams?", answer: "The Engineers" },
             { value: 300, clue: "What RPI alumnus commanded the Artemis II mission to the moon?", answer: "Reid Wiseman" },
             { value: 400, clue: "In what year was RPI founded, making it the oldest technological university in the English-speaking world?", answer: "1824" },
-            { value: 500, clue: "Clue goes here", answer: "Answer goes here" },
+            { value: 500, clue: "Which patroon founded RPI in 1824 and gave the school its name?", answer: "Stephen Van Rensselaer" },
           ],
         },
         {
@@ -67,13 +67,13 @@ const GAME_DATA = {
           ],
         },
         {
-          name: "Category 5",
+          name: "Geography 🌍",
           clues: [
-            { value: 100, clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 200, clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 300, clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 400, clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 500, clue: "Clue goes here", answer: "Answer goes here" },
+            { value: 100, clue: "What is the largest country in the world by land area?", answer: "Russia" },
+            { value: 200, clue: "What is the capital of Australia?", answer: "Canberra" },
+            { value: 300, clue: "What is the longest river in the world?", answer: "The Nile" },
+            { value: 400, clue: "What is the smallest country in the world by area?", answer: "Vatican City" },
+            { value: 500, clue: "What is the largest hot desert in the world?", answer: "The Sahara" },
           ],
         },
         {
