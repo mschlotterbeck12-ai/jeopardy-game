@@ -81,9 +81,9 @@ const GAME_DATA = {
           clues: [
             { value: 100, clue: "What is the only metal that is liquid at room temperature?", answer: "Mercury" },
             { value: 200, clue: "How many bones are in the adult human body?", answer: "206" },
-            { value: 300, clue: "Who wrote the dystopian novel '1984'?", answer: "George Orwell" },
-            { value: 400, clue: "What is the SI unit of electrical resistance?", answer: "The ohm" },
-            { value: 500, clue: "What is the rarest of the eight major human blood types?", answer: "AB negative" },
+            { value: 300, clue: "What is the largest planet in our solar system?", answer: "Jupiter" },
+            { value: 400, clue: "What is the powerhouse of the cell?", answer: "The mitochondria" },
+            { value: 500, clue: "What is the most abundant gas in Earth's atmosphere?", answer: "Nitrogen" },
           ],
         },
       ],
