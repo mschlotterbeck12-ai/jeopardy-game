@@ -1,38 +1,47 @@
 # Jeopardy Game
 
-A simple, browser-based Jeopardy-style game board. No build tools, no dependencies — just open `index.html`.
+**Live site:** https://mschlotterbeck12-ai.github.io/jeopardy-game/
 
-## How to play / run
+Hosted on GitHub Pages. Every push to `main` automatically rebuilds the live site,
+so the latest categories and clues show up without this computer being on.
 
-Double-click `index.html` to open it in your browser. That's it.
+A browser-based Jeopardy-style game: a classic board with categories and dollar
+values, a Double Jeopardy round with doubled amounts, and a Final Jeopardy
+question to finish.
+
+## How to play
+
+Open the live site (or double-click `index.html` locally). Click any dollar tile
+to show its clue, then **Reveal Answer**. Used tiles dim out.
+
+- **Round 1 — Jeopardy** ($100–$500)
+- When all tiles are used → popup → **Round 2 — Double Jeopardy** ($200–$1000)
+- When those are used → popup → **Final Jeopardy** (one full-screen question)
+
+There's a simple score tracker in the header (+ / − the current clue's value,
+and Reset to start over).
 
 ## How to add your own categories and questions
 
-Open **`data.js`** and edit it. It's the only file you need to touch.
-
-- Add up to 6 categories (fewer is fine).
-- Each category has a `name` and a list of `clues`.
-- Each clue has a `value` (points), a `clue` (shown on the board), and an `answer` (revealed on click).
-
-Example:
+Edit **`data.js`** — it's the only file you need to touch. It holds both rounds
+plus the Final Jeopardy question. Each clue has a `value`, a `clue` (shown on the
+board), and an `answer` (revealed on click).
 
 ```js
 {
   name: "World Capitals",
   clues: [
-    { value: 200, clue: "This city is the capital of France", answer: "What is Paris?" },
-    { value: 400, clue: "Capital of Japan", answer: "What is Tokyo?" },
+    { value: 100, clue: "Capital of France", answer: "What is Paris?" },
     // ...
   ],
 }
 ```
 
-## Features
+After editing, commit and push and the live site updates within a minute or two:
 
-- Classic Jeopardy blue board with category headers and point tiles
-- Click a tile to show the clue, then "Reveal Answer"
-- Tiles dim once used
-- Simple score tracker (+ / − the current clue's value, and Reset)
+```sh
+git commit -am "update questions" && git push
+```
 
 ## Files
 
@@ -41,4 +50,4 @@ Example:
 | `index.html` | Page structure |
 | `styles.css` | Styling / theme |
 | `script.js`  | Game logic (you normally don't edit this) |
-| `data.js`    | **Your categories, clues, and answers** |
+| `data.js`    | **Your rounds, categories, clues, and answers** |
