@@ -157,7 +157,6 @@ function startFinalJeopardy() {
     '<p class="final-answer hidden">' + escapeHtml(f.answer) + "</p>" +
     '<div class="final-buttons">' +
     '<button class="final-reveal">Reveal Answer</button>' +
-    '<button class="final-again">Play Again</button>' +
     "</div>";
   document.querySelector("main").appendChild(wrap);
 
@@ -169,7 +168,6 @@ function startFinalJeopardy() {
       ? "Reveal Answer"
       : "Hide Answer";
   });
-  wrap.querySelector(".final-again").addEventListener("click", restart);
 }
 
 function escapeHtml(str) {
