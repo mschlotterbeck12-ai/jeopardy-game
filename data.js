@@ -83,7 +83,7 @@ const GAME_DATA = {
             { value: 200, clue: "How many bones are in the adult human body?", answer: "206" },
             { value: 300, clue: "What is the most abundant gas in Earth's atmosphere?", answer: "Nitrogen" },
             { value: 400, clue: "Who developed the theory of relativity?", answer: "Albert Einstein" },
-            { value: 500, clue: "In what year did humans first land on the Moon?", answer: "1969" },
+            { value: 500, clue: "Which planet rotates on its side, with an axial tilt of about 98 degrees?", answer: "Uranus" },
           ],
         },
       ],
