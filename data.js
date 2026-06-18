@@ -119,7 +119,7 @@ const GAME_DATA = {
           name: "Combo 👧",
           clues: [
             { value: 200,  clue: "Name two female members who were roommates during their freshman year.", answer: "" },
-            { value: 400,  clue: "Clue goes here", answer: "Answer goes here" },
+            { value: 400,  clue: "Name all of the majors of every single woman in the group.", answer: "" },
             { value: 600,  clue: "Clue goes here", answer: "Answer goes here" },
             { value: 800,  clue: "Clue goes here", answer: "Answer goes here" },
             { value: 1000, clue: "Clue goes here", answer: "Answer goes here" },
