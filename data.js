@@ -27,7 +27,7 @@ const GAME_DATA = {
       name: "Jeopardy",
       categories: [
         {
-          name: "for da boys 🍻",
+          name: "da boys 🍻",
           clues: [
             { value: 100, clue: "Clue goes here", answer: "Answer goes here" },
             { value: 200, clue: "Which guy played the saxphone growing up", answer: "Answer goes here" },
@@ -37,7 +37,7 @@ const GAME_DATA = {
           ],
         },
         {
-          name: "Category 2",
+          name: "the Ladies 💃",
           clues: [
             { value: 100, clue: "Clue goes here", answer: "Answer goes here" },
             { value: 200, clue: "Clue goes here", answer: "Answer goes here" },
