@@ -295,6 +295,72 @@ main {
   transform: translateY(-2px);
 }
 
+/* ---------- Final Jeopardy screen ---------- */
+.final-screen {
+  max-width: 1000px;
+  margin: 4vh auto 0;
+  background: linear-gradient(180deg, #0a14d8 0%, var(--jeopardy-blue) 100%);
+  border: 4px solid var(--jeopardy-gold);
+  border-radius: 14px;
+  padding: 6vh 6vw;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+}
+
+.final-category {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: clamp(1rem, 2.5vw, 1.6rem);
+  color: var(--jeopardy-gold-light);
+  font-weight: bold;
+}
+
+.final-clue {
+  margin-top: 28px;
+  font-size: clamp(1.6rem, 4vw, 3rem);
+  line-height: 1.4;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #000;
+}
+
+.final-answer {
+  margin-top: 36px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  font-size: clamp(1.3rem, 3vw, 2.2rem);
+  color: var(--jeopardy-gold-light);
+  font-weight: bold;
+}
+
+.final-answer.hidden {
+  display: none;
+}
+
+.final-buttons {
+  margin-top: 40px;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.final-buttons button {
+  background: var(--jeopardy-dark);
+  color: var(--text-light);
+  border: 2px solid var(--jeopardy-gold);
+  border-radius: 8px;
+  padding: 13px 28px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.final-buttons button:hover {
+  background: var(--jeopardy-gold);
+  color: var(--jeopardy-dark);
+}
+
 @media (max-width: 600px) {
   main { padding: 14px 10px 24px; }
   .board { gap: 5px; }

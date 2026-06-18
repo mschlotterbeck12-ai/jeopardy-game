@@ -29,15 +29,14 @@ function currentRound() {
 }
 
 function buildBoard() {
+  board.style.display = "grid";
   board.innerHTML = "";
   const round = currentRound();
   const categories = round.categories;
   board.style.setProperty("--cols", categories.length);
 
-  // Title shows the game name + which round we're in
   titleEl.textContent = GAME_DATA.title + " — " + round.name;
 
-  // Count clue tiles so we know when the round is finished
   remaining = 0;
 
   // Row 1: category headers
@@ -48,7 +47,6 @@ function buildBoard() {
     board.appendChild(header);
   });
 
-  // Use the longest category so nothing is dropped
   const maxRows = Math.max(...categories.map((c) => c.clues.length));
 
   for (let row = 0; row < maxRows; row++) {
@@ -82,7 +80,6 @@ function openClue(categoryName, clue, tile) {
   revealBtn.textContent = "Reveal Answer";
   modal.classList.remove("hidden");
 
-  // Mark the tile as used
   tile.classList.add("used");
   tile.disabled = true;
   remaining--;
@@ -97,7 +94,6 @@ revealBtn.addEventListener("click", () => {
 
 function closeModal() {
   modal.classList.add("hidden");
-  // If that was the last tile of the round, move on
   if (remaining <= 0) maybeAdvanceRound();
 }
 
@@ -111,34 +107,86 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape" && !modal.classList.contains("hidden")) closeModal();
 });
 
-// ---------- Round transition ----------
+// ---------- Round transitions ----------
 function maybeAdvanceRound() {
-  const isLastRound = roundIndex >= GAME_DATA.rounds.length - 1;
-  if (isLastRound) {
-    showOverlay("That's the game!", "Final score: $" + score, "Play Again", () => {
-      score = 0;
-      roundIndex = 0;
-      updateScore();
-      buildBoard();
-    });
+  const moreRounds = roundIndex < GAME_DATA.rounds.length - 1;
+
+  if (moreRounds) {
+    const nextName = GAME_DATA.rounds[roundIndex + 1].name;
+    showOverlay(
+      "Ready for the next round?",
+      nextName + " — all the dollar amounts are bigger!",
+      "Start " + nextName,
+      () => {
+        roundIndex++;
+        buildBoard();
+      }
+    );
     return;
   }
 
-  const nextName = GAME_DATA.rounds[roundIndex + 1].name;
-  showOverlay("Round Complete!", "Next up: " + nextName, "Start " + nextName, () => {
-    roundIndex++;
-    buildBoard();
-  });
+  // No more board rounds. Is there a Final Jeopardy?
+  if (GAME_DATA.final) {
+    showOverlay(
+      "Ready for Final Jeopardy?",
+      "One last question for all the marbles.",
+      "Go to Final Jeopardy",
+      startFinalJeopardy
+    );
+    return;
+  }
+
+  endGame();
 }
 
+function endGame() {
+  showOverlay("That's the game!", "Final score: $" + score, "Play Again", restart);
+}
+
+// ---------- Final Jeopardy ----------
+function startFinalJeopardy() {
+  const f = GAME_DATA.final;
+  board.style.display = "none";
+  titleEl.textContent = GAME_DATA.title + " — Final Jeopardy";
+
+  const wrap = document.createElement("div");
+  wrap.className = "final-screen";
+  wrap.innerHTML =
+    '<p class="final-category">' + escapeHtml(f.category) + "</p>" +
+    '<p class="final-clue">' + escapeHtml(f.clue) + "</p>" +
+    '<p class="final-answer hidden">' + escapeHtml(f.answer) + "</p>" +
+    '<div class="final-buttons">' +
+    '<button class="final-reveal">Reveal Answer</button>' +
+    '<button class="final-again">Play Again</button>' +
+    "</div>";
+  document.querySelector("main").appendChild(wrap);
+
+  const ans = wrap.querySelector(".final-answer");
+  const revBtn = wrap.querySelector(".final-reveal");
+  revBtn.addEventListener("click", () => {
+    ans.classList.toggle("hidden");
+    revBtn.textContent = ans.classList.contains("hidden")
+      ? "Reveal Answer"
+      : "Hide Answer";
+  });
+  wrap.querySelector(".final-again").addEventListener("click", restart);
+}
+
+function escapeHtml(str) {
+  const d = document.createElement("div");
+  d.textContent = str;
+  return d.innerHTML;
+}
+
+// ---------- Overlay popup ----------
 function showOverlay(heading, sub, buttonText, onContinue) {
   const overlay = document.createElement("div");
   overlay.className = "overlay";
   overlay.innerHTML =
     '<div class="overlay-card">' +
-    '<h2>' + heading + "</h2>" +
-    '<p>' + sub + "</p>" +
-    '<button class="overlay-btn">' + buttonText + "</button>" +
+    "<h2>" + escapeHtml(heading) + "</h2>" +
+    "<p>" + escapeHtml(sub) + "</p>" +
+    '<button class="overlay-btn">' + escapeHtml(buttonText) + "</button>" +
     "</div>";
   document.body.appendChild(overlay);
   overlay.querySelector(".overlay-btn").addEventListener("click", () => {
@@ -162,14 +210,17 @@ minusBtn.addEventListener("click", () => {
   updateScore();
 });
 
-resetBtn.addEventListener("click", () => {
+function restart() {
   document.querySelectorAll(".overlay").forEach((o) => o.remove());
+  document.querySelectorAll(".final-screen").forEach((f) => f.remove());
   score = 0;
   activeValue = 0;
   roundIndex = 0;
   updateScore();
   buildBoard();
-});
+}
+
+resetBtn.addEventListener("click", restart);
 
 // ---------- Start ----------
 buildBoard();

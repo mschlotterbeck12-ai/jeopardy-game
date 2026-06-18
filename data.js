@@ -2,12 +2,13 @@
 //  EDIT YOUR GAME HERE
 // ============================================================
 //
-//  There are TWO rounds:
+//  There are THREE rounds:
 //    - Round 1 "Jeopardy"        -> values 100, 200, 300, 400, 500
 //    - Round 2 "Double Jeopardy" -> values 200, 400, 600, 800, 1000
+//    - Final Jeopardy            -> one single question (bottom of file)
 //
-//  Once every tile in Round 1 is used, the board automatically
-//  reloads with the Round 2 categories below.
+//  When every tile in a round is used, a popup asks if you're
+//  ready for the next round, then loads it.
 //
 //  - Each round can have up to 6 categories.
 //  - Each clue has a value, a "clue" (shown on the board) and an
@@ -157,4 +158,13 @@ const GAME_DATA = {
       ],
     },
   ],
+
+  // ---------------------------------------------------------
+  //  FINAL JEOPARDY — one single question, full screen
+  // ---------------------------------------------------------
+  final: {
+    category: "Final Category",
+    clue: "Final Jeopardy clue goes here",
+    answer: "Final Jeopardy answer goes here",
+  },
 };
