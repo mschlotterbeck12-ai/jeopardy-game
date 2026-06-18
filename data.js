@@ -108,10 +108,10 @@ const GAME_DATA = {
         {
           name: "Combo 👦👧",
           clues: [
-            { value: 200,  clue: "Clue goes here", answer: "Answer goes here" },
+            { value: 200,  clue: "Which two members of the group are the only ones to have earned a yellow card AND suffered a concussion during the 2025 season?", answer: "Answer goes here" },
             { value: 400,  clue: "Clue goes here", answer: "Answer goes here" },
             { value: 600,  clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 800,  clue: "Clue goes here", answer: "Answer goes here" },
+            { value: 800,  clue: "Which two group members' fathers swam at Division III schools?", answer: "Andy's and Matt's" },
             { value: 1000, clue: "Clue goes here", answer: "Answer goes here" },
           ],
         },
