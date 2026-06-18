@@ -81,9 +81,9 @@ const GAME_DATA = {
           clues: [
             { value: 100, clue: "What is the only metal that is liquid at room temperature?", answer: "Mercury" },
             { value: 200, clue: "How many bones are in the adult human body?", answer: "206" },
-            { value: 300, clue: "What is the largest planet in our solar system?", answer: "Jupiter" },
-            { value: 400, clue: "What is the powerhouse of the cell?", answer: "The mitochondria" },
-            { value: 500, clue: "What is the most abundant gas in Earth's atmosphere?", answer: "Nitrogen" },
+            { value: 300, clue: "What is the most abundant gas in Earth's atmosphere?", answer: "Nitrogen" },
+            { value: 400, clue: "Who developed the theory of relativity?", answer: "Albert Einstein" },
+            { value: 500, clue: "In what year did humans first land on the Moon?", answer: "1969" },
           ],
         },
       ],
