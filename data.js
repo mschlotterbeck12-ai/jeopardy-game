@@ -6,7 +6,7 @@
 //  - Each category has a list of clues.
 //  - Each clue has a point value, a "clue" (the question shown
 //    on the board), and the "answer" (revealed when you click).
-//  - Point values are usually 200, 400, 600, 800, 1000.
+//  - Point values run 100, 200, 300, 400, 500 down each column.
 //
 //  Just replace the placeholder text below with your own.
 // ============================================================
@@ -17,61 +17,61 @@ const GAME_DATA = {
     {
       name: "Category 1",
       clues: [
-        { value: 200,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 400,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 600,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 800,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 1000, clue: "Clue goes here",  answer: "Answer goes here" },
+        { value: 100, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 200, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 300, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 400, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 500, clue: "Clue goes here", answer: "Answer goes here" },
       ],
     },
     {
       name: "Category 2",
       clues: [
-        { value: 200,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 400,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 600,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 800,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 1000, clue: "Clue goes here",  answer: "Answer goes here" },
+        { value: 100, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 200, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 300, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 400, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 500, clue: "Clue goes here", answer: "Answer goes here" },
       ],
     },
     {
       name: "Category 3",
       clues: [
-        { value: 200,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 400,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 600,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 800,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 1000, clue: "Clue goes here",  answer: "Answer goes here" },
+        { value: 100, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 200, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 300, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 400, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 500, clue: "Clue goes here", answer: "Answer goes here" },
       ],
     },
     {
       name: "Category 4",
       clues: [
-        { value: 200,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 400,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 600,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 800,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 1000, clue: "Clue goes here",  answer: "Answer goes here" },
+        { value: 100, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 200, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 300, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 400, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 500, clue: "Clue goes here", answer: "Answer goes here" },
       ],
     },
     {
       name: "Category 5",
       clues: [
-        { value: 200,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 400,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 600,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 800,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 1000, clue: "Clue goes here",  answer: "Answer goes here" },
+        { value: 100, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 200, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 300, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 400, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 500, clue: "Clue goes here", answer: "Answer goes here" },
       ],
     },
     {
       name: "Category 6",
       clues: [
-        { value: 200,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 400,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 600,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 800,  clue: "Clue goes here",  answer: "Answer goes here" },
-        { value: 1000, clue: "Clue goes here",  answer: "Answer goes here" },
+        { value: 100, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 200, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 300, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 400, clue: "Clue goes here", answer: "Answer goes here" },
+        { value: 500, clue: "Clue goes here", answer: "Answer goes here" },
       ],
     },
   ],

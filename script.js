@@ -46,7 +46,7 @@ function buildBoard() {
       tile.className = "tile";
 
       if (clue) {
-        tile.textContent = clue.value;
+        tile.textContent = "$" + clue.value;
         tile.addEventListener("click", () => openClue(cat.name, clue, tile));
       } else {
         // Empty slot if a category has fewer clues than the others
