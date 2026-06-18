@@ -47,7 +47,7 @@ const GAME_DATA = {
           ],
         },
         {
-          name: "Category 3",
+          name: "RPI History 🎓",
           clues: [
             { value: 100, clue: "Clue goes here", answer: "Answer goes here" },
             { value: 200, clue: "Clue goes here", answer: "Answer goes here" },
