@@ -126,13 +126,13 @@ const GAME_DATA = {
           ],
         },
         {
-          name: "Category 4",
+          name: "Pop Culture 🎬",
           clues: [
-            { value: 200,  clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 400,  clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 600,  clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 800,  clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 1000, clue: "Clue goes here", answer: "Answer goes here" },
+            { value: 200,  clue: "Which rapper's real name is Marshall Mathers?", answer: "Eminem" },
+            { value: 400,  clue: "Which 1994 film features the line \"Life is like a box of chocolates\"?", answer: "Forrest Gump" },
+            { value: 600,  clue: "What's the highest-grossing film of all time (unadjusted for inflation)?", answer: "Avatar (2009)" },
+            { value: 800,  clue: "Which red-dirt/Oklahoma country artist released \"Welcome to the Plains\" and is known for songs like \"Please Don't Go\"? (Hint: you saw him live recently.)", answer: "Wyatt Flores" },
+            { value: 1000, clue: "What's the longest-running scripted primetime TV series in U.S. history? (Hint: it's animated.)", answer: "The Simpsons" },
           ],
         },
         {
