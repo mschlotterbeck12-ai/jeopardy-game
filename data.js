@@ -108,21 +108,21 @@ const GAME_DATA = {
         {
           name: "Science & Nature 🔬",
           clues: [
-            { value: 200,  clue: "What gas do humans exhale that plants absorb for photosynthesis?", answer: "Carbon dioxide" },
-            { value: 400,  clue: "What is the largest organ in the human body?", answer: "The skin" },
-            { value: 600,  clue: "What is the hardest naturally occurring substance on Earth?", answer: "Diamond" },
-            { value: 800,  clue: "How many bones does a shark have?", answer: "Zero (its skeleton is cartilage)" },
-            { value: 1000, clue: "Which planet in our solar system rotates clockwise (in retrograde)?", answer: "Venus" },
+            { value: 200,  clue: "What is the largest organ in the human body?", answer: "The skin" },
+            { value: 400,  clue: "What is the hardest naturally occurring substance on Earth?", answer: "Diamond" },
+            { value: 600,  clue: "How many bones does a shark have?", answer: "Zero (its skeleton is cartilage)" },
+            { value: 800,  clue: "Which planet in our solar system rotates clockwise (in retrograde)?", answer: "Venus" },
+            { value: 1000, clue: "What is the rarest naturally occurring element on Earth?", answer: "Astatine" },
           ],
         },
         {
           name: "Food & Drink 🍔",
           clues: [
-            { value: 200,  clue: "What is the main ingredient in guacamole?", answer: "Avocado" },
-            { value: 400,  clue: "In what country did sushi originate?", answer: "Japan" },
-            { value: 600,  clue: "What spice, derived from a crocus flower, is the most expensive in the world by weight?", answer: "Saffron" },
-            { value: 800,  clue: "What is the main alcoholic ingredient in a mojito?", answer: "Rum" },
-            { value: 1000, clue: "What French culinary phrase means having all your ingredients prepped and in place before cooking?", answer: "Mise en place" },
+            { value: 200,  clue: "In what country did sushi originate?", answer: "Japan" },
+            { value: 400,  clue: "What spice, derived from a crocus flower, is the most expensive in the world by weight?", answer: "Saffron" },
+            { value: 600,  clue: "What is the main alcoholic ingredient in a mojito?", answer: "Rum" },
+            { value: 800,  clue: "Which nut is the main ingredient in marzipan?", answer: "Almonds" },
+            { value: 1000, clue: "What sesame-seed paste is a key ingredient in hummus?", answer: "Tahini" },
           ],
         },
         {
