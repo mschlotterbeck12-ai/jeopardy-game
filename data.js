@@ -102,7 +102,7 @@ const GAME_DATA = {
             { value: 400,  clue: "What is my favorite color? Hint: I wear a lot of it because, as a kid, my Mom thought it looked good on me since it matched something.", answer: "" },
             { value: 600,  clue: "What is my middle name?", answer: "" },
             { value: 800,  clue: "What is my biggest fear?", answer: "" },
-            { value: 1000, clue: "Can you name all 4 countries that my family lineage is from?", answer: "" },
+            { value: 1000, clue: "Name any 3 of the 4 countries that my family lineage is from.", answer: "" },
           ],
         },
         {
@@ -140,7 +140,7 @@ const GAME_DATA = {
           clues: [
             { value: 200,  clue: "In golf, what is the term for three strokes under par on a single hole?", answer: "An albatross (double eagle)" },
             { value: 400,  clue: "What annual multi-stage cycling race is one of the most-watched sporting events in the world every year?", answer: "The Tour de France" },
-            { value: 600,  clue: "Which tennis tournament is played on grass courts?", answer: "Wimbledon" },
+            { value: 600,  clue: "Which tennis tournament requires players to wear all-white attire?", answer: "Wimbledon" },
             { value: 800,  clue: "Which boxer was known as \"The Greatest\" and lit the Olympic torch in 1996?", answer: "Muhammad Ali" },
             { value: 1000, clue: "In soccer, which goalkeeper is the only one to win the Ballon d'Or?", answer: "Lev Yashin" },
           ],
