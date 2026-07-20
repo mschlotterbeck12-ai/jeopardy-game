@@ -43,7 +43,7 @@ const GAME_DATA = {
             { value: 200, clue: "Which woman, when asked something niche about herself, replied: \"There isn't anything niche about me — everyone knows everything about me\"?", answer: "" },
             { value: 300, clue: "Clue goes here", answer: "Answer goes here" },
             { value: 400, clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 500, clue: "Clue goes here", answer: "Answer goes here" },
+            { value: 500, clue: "Which woman is a black belt in karate?", answer: "" },
           ],
         },
         {
