@@ -112,7 +112,7 @@ const GAME_DATA = {
             { value: 400,  clue: "What is the hardest naturally occurring substance on Earth?", answer: "Diamond" },
             { value: 600,  clue: "How many bones does a shark have?", answer: "Zero (its skeleton is cartilage)" },
             { value: 800,  clue: "Which planet in our solar system rotates clockwise (in retrograde)?", answer: "Venus" },
-            { value: 1000, clue: "What is the scientific study of fungi called?", answer: "Mycology" },
+            { value: 1000, clue: "What is the scientific study of birds called?", answer: "Ornithology" },
           ],
         },
         {
