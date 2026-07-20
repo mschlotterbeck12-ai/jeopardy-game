@@ -112,7 +112,7 @@ const GAME_DATA = {
             { value: 400,  clue: "What is the hardest naturally occurring substance on Earth?", answer: "Diamond" },
             { value: 600,  clue: "How many bones does a shark have?", answer: "Zero (its skeleton is cartilage)" },
             { value: 800,  clue: "Which planet in our solar system rotates clockwise (in retrograde)?", answer: "Venus" },
-            { value: 1000, clue: "What is the rarest naturally occurring element on Earth?", answer: "Astatine" },
+            { value: 1000, clue: "What is the scientific study of fungi called?", answer: "Mycology" },
           ],
         },
         {
@@ -121,8 +121,8 @@ const GAME_DATA = {
             { value: 200,  clue: "In what country did sushi originate?", answer: "Japan" },
             { value: 400,  clue: "What spice, derived from a crocus flower, is the most expensive in the world by weight?", answer: "Saffron" },
             { value: 600,  clue: "What is the main alcoholic ingredient in a mojito?", answer: "Rum" },
-            { value: 800,  clue: "Which nut is the main ingredient in marzipan?", answer: "Almonds" },
-            { value: 1000, clue: "What sesame-seed paste is a key ingredient in hummus?", answer: "Tahini" },
+            { value: 800,  clue: "Miso, a staple of Japanese cooking, is a paste made from what fermented bean?", answer: "Soybeans" },
+            { value: 1000, clue: "What Italian dessert's name literally translates to 'pick me up'?", answer: "Tiramisu" },
           ],
         },
         {
