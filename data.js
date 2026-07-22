@@ -30,7 +30,7 @@ const GAME_DATA = {
           name: "da boys 🍻",
           clues: [
             { value: 100, clue: "Clue goes here", answer: "Answer goes here" },
-            { value: 200, clue: "Which guy played the saxphone growing up", answer: "Answer goes here" },
+            { value: 200, clue: "Which guy played the saxphone growing up", answer: "Josh" },
             { value: 300, clue: "Which two members of the group are the only ones to have earned a yellow card AND suffered a concussion during the 2025 season?", answer: "Josh and Harry" },
             { value: 400, clue: "Which two group members had major injuries to their head when they were young?", answer: "Harry and Andy" },
             { value: 500, clue: "Clue goes here", answer: "Answer goes here" },
