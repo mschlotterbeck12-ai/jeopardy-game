@@ -149,9 +149,9 @@ const GAME_DATA = {
           name: "Word Play 🔤",
           clues: [
             { value: 200,  clue: "Rearrange the letters of LISTEN to spell another common six-letter word.", answer: "Silent (also enlist / tinsel)" },
-            { value: 400,  clue: "Rearrange the letters of DORMITORY to reveal a fitting two-word phrase.", answer: "Dirty room" },
+            { value: 400,  clue: "Rearrange the letters of RESCUE to spell a word meaning to make safe.", answer: "Secure" },
             { value: 600,  clue: "Unscramble ANLDEGN to name a country.", answer: "England" },
-            { value: 800,  clue: "Rearrange ASTRONOMER into two words that describe a stargazer.", answer: "Moon starer" },
+            { value: 800,  clue: "Rearrange the letters of DECIMAL to spell a word meaning relating to medicine.", answer: "Medical" },
             { value: 1000, clue: "\"Eleven plus two\" is a famous anagram of what other number phrase (both equal 13)?", answer: "Twelve plus one" },
           ],
         },
