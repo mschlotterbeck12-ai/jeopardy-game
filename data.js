@@ -41,7 +41,7 @@ const GAME_DATA = {
           clues: [
             { value: 100, clue: "Clue goes here", answer: "Answer goes here" },
             { value: 200, clue: "Which woman loves alpacas?", answer: "" },
-            { value: 300, clue: "Clue goes here", answer: "Answer goes here" },
+            { value: 300, clue: "Which woman has two cats named Oscar and Felix?", answer: "" },
             { value: 400, clue: "Clue goes here", answer: "Answer goes here" },
             { value: 500, clue: "Which woman is a black belt in karate?", answer: "" },
           ],
